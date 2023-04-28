@@ -13,6 +13,8 @@
 		669E521C29FBC89A001F16D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 669E521A29FBC89A001F16D1 /* Main.storyboard */; };
 		669E521E29FBC89C001F16D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 669E521D29FBC89C001F16D1 /* Assets.xcassets */; };
 		669E522129FBC89C001F16D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 669E521F29FBC89C001F16D1 /* LaunchScreen.storyboard */; };
+		669E522929FBCE27001F16D1 /* FurnitureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669E522829FBCE27001F16D1 /* FurnitureTableViewCell.swift */; };
+		669E522D29FBF483001F16D1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669E522C29FBF483001F16D1 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		669E521D29FBC89C001F16D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		669E522029FBC89C001F16D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		669E522229FBC89C001F16D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		669E522829FBCE27001F16D1 /* FurnitureTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureTableViewCell.swift; sourceTree = "<group>"; };
+		669E522C29FBF483001F16D1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +64,11 @@
 				669E521629FBC89A001F16D1 /* SceneDelegate.swift */,
 				669E521829FBC89A001F16D1 /* ViewController.swift */,
 				669E521A29FBC89A001F16D1 /* Main.storyboard */,
+				669E522C29FBF483001F16D1 /* SecondViewController.swift */,
 				669E521D29FBC89C001F16D1 /* Assets.xcassets */,
 				669E521F29FBC89C001F16D1 /* LaunchScreen.storyboard */,
 				669E522229FBC89C001F16D1 /* Info.plist */,
+				669E522829FBCE27001F16D1 /* FurnitureTableViewCell.swift */,
 			);
 			path = CustomeTableView;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			files = (
 				669E521929FBC89A001F16D1 /* ViewController.swift in Sources */,
 				669E521529FBC89A001F16D1 /* AppDelegate.swift in Sources */,
+				669E522929FBCE27001F16D1 /* FurnitureTableViewCell.swift in Sources */,
+				669E522D29FBF483001F16D1 /* SecondViewController.swift in Sources */,
 				669E521729FBC89A001F16D1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
